@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runnerfile.Runnerfile
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.471 s <<< FAILURE! -- in runnerfile.Runnerfile
+V1 Training Form.To verify the simple form -- Time elapsed: 3.088 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User enters Firstname , Lastname, Email' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User enters Firstname , Lastname, Email")
+public void user_enters_firstname_lastname_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

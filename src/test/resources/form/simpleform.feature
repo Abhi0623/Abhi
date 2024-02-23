@@ -23,18 +23,9 @@ Feature: V1 Training Form
   @tag1
   Scenario: To verify the simple form 
     Given user open the browser and navigate to v1 training foem website 
-    When User enters First name , Last name, Email
+    When User enters Firstname , Lastname, Email
     And Contact number, Message
     And user clicks on submit 
     Then A confirmation pop-up is displayed 
     
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+  
